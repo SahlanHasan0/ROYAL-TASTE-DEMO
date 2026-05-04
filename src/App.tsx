@@ -385,9 +385,20 @@ const Footer = () => {
           <a href="#" className="text-zinc-500 hover:text-gold-500 transition-colors"><Twitter className="w-5 h-5" /></a>
         </div>
         
-        <p className="text-zinc-600 text-sm font-light">
-          &copy; {new Date().getFullYear()} Royal Taste. All Rights Reserved.
-        </p>
+        <div className="flex flex-col items-center md:items-end gap-2 text-zinc-600 text-sm font-light">
+          <p>&copy; {new Date().getFullYear()} Royal Taste. All Rights Reserved.</p>
+          <p>
+            DEVELOPED BY{' '}
+            <a 
+              href="https://wa.me/8801608383607" 
+              target="_blank" 
+              rel="noreferrer"
+              className="text-gold-500 hover:text-gold-400 transition-colors font-medium hover:underline"
+            >
+              WEBBITE AGENCY
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );
